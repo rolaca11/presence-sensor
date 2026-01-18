@@ -1,0 +1,37 @@
+# KiCad 9 .gitignore
+
+# Backup files
+*-backups/
+*.bak
+*~
+
+# Autosave files
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Lock files
+*.lck
+
+# Local project settings (window positions, zoom levels, etc.)
+*.kicad_prl
+
+# Footprint cache (regenerated automatically)
+fp-info-cache
+
+# Netlist files (generated output)
+*.net
+
+# Generated production/fabrication files (uncomment if you want to track these)
+# production/
+
+# 3D model cache
+*.wrl.cache
+*.step.cache
+
+# Rescue libraries (created when missing symbols are found)
+*-rescue.kicad_sym
+*-rescue.lib
+
+# Old format backup files
+*.sch-bak
+*.pcb-bak
