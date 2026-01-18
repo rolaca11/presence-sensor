@@ -2,6 +2,7 @@
 
 # Backup files
 *-backups/
+**/backups/
 *.bak
 *~
 

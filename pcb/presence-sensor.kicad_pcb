@@ -178,7 +178,7 @@
 	(net 33 "/ERASE")
 	(net 34 "unconnected-(U1-DIO24_A7-Pad12)")
 	(net 35 "unconnected-(U1-DCDC-Pad17)")
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "03398e7c-b50d-47de-b438-6bc9f9a459b0")
 		(at 150 104.25 -90)
@@ -283,6 +283,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63687e98-625f-4bc7-a1aa-c3489285b353")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef687b9-7ccc-43d3-8519-44dc0c4964cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "603-CC603KRX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4232d6e1-5b1b-47ad-a81b-267c06e46d54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "311-1344-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0291e8ef-e741-418e-85d6-1a69875f680a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/21de6b54-af41-496c-bc44-2b3d1ca0f698")
 		(sheetname "/")
@@ -372,7 +424,7 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "footprints:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "05524e2c-8b6d-45b1-9180-64b01e1a06be")
 		(at 148.85 91.9 180)
@@ -443,6 +495,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "363593c5-334e-4848-9b39-fbaf64c4ab15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HCI"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc769ac8-b8c2-4632-843b-9efff185cf65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XC32M4-48.000-F08NLDT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "551ed1e4-559d-4fa7-86d0-53061b469712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "4309-XC32M4-48.000-F08NLDTKTR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e83ebac1-e249-414e-a9ac-9d26ec68f544")
 			(effects
 				(font
 					(size 1 1)
@@ -562,7 +653,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "08a035d5-c704-4658-bfb1-51ce2980b20d")
 		(at 152.5 95.75)
@@ -667,6 +758,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0a83188-8525-434c-8247-7f0c6cabbeb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51fe39b8-0a85-47fe-8046-ff1071f87c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "603-CC603KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afc110b2-59b5-4c72-836e-718c7d33848e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "311-1344-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4539d34f-a396-4bd1-ade8-1bd54575ec12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3acfb511-5820-43e6-9d0f-6727982971ac")
 		(sheetname "/")
@@ -756,7 +899,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0a037588-80f9-42d9-837a-b1474f622794")
 		(at 152.5 104.25 -90)
@@ -861,6 +1004,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7bc311b-abcd-405d-8b74-207316530408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "215b0f80-2d70-4f98-8775-415910eec362")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A106KP8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd534f9c-ff2a-4e6d-a020-eb96fd008dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1192-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d52c05e-b78c-4a01-b321-6ac4d906dee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e989dec7-31e0-4454-b22f-9015502e8fda")
 		(sheetname "/")
@@ -950,7 +1145,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "18ba490c-5205-4b4c-a83e-afba91b7f106")
 		(at 154 103.075 -90)
@@ -1055,6 +1250,45 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2bb5a3c-ad68-4aa3-bebe-89e3d88d0f96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a901c62-062a-42bf-b541-5c1b67ae1bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF1003T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "900821b6-b728-4e3f-a28c-d9072b6f3acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d99ef789-16b7-4618-b518-49022d3a9aae")
 		(sheetname "/")
@@ -1144,7 +1378,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1eb63829-30e2-48b1-809d-c21bf92436aa")
 		(at 142.725 113.25)
@@ -1249,6 +1483,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d53d85a-f950-423b-af8f-f620bba0593b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df85a017-5168-41b2-bf7c-15a15bbfa0d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ebc78da-53a5-440b-91f5-bc47fd8a5f93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1860-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33e7104a-4468-4731-b4ad-f60580e8dcd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/081616ca-dbba-4b8b-8dfd-57be1ba71f34")
 		(sheetname "/")
@@ -1341,7 +1627,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2798a130-926f-49e0-a197-ea1fef5a9eb8")
 		(at 155.5 103.025 -90)
@@ -1446,6 +1732,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e0bef2f-3a2b-4bc3-b749-fee2a16bc4f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "710fa7c1-c52e-4018-80c3-cbe3cc6f2fc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A105KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f62acd5d-175d-478e-a17f-d1447b06c813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1860-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b205eb5-e0f4-4883-9fcf-8c2cb794d40b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6ae0b68d-0b59-424d-a6a4-6c406f04fe58")
 		(sheetname "/")
@@ -1535,7 +1873,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2ea8c4fe-0fc3-4da5-b9ee-d133d2a905fc")
 		(at 141.475 97 180)
@@ -1640,6 +1978,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e90acff-8aec-4152-b59f-12cd75aae260")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603CG1R5C500NT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34128371-d4fc-45ba-8669-655d94954250")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f7d6df57-6b69-40cd-90fa-f710b53baf4a")
 		(sheetname "/")
@@ -1729,7 +2093,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(footprint "footprints:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "3caf56f7-e0c9-4408-80dc-0cdf6e77b68e")
 		(at 151 114.25)
@@ -1831,6 +2195,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e4f3ed1-8fd7-46d0-9e00-9f43d7919486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Global Connector Technology"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "074dca56-cfcb-4377-84a3-2a2b6a6f201e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "USB4105-GF-A-120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4d33549-15bc-44c6-9c8e-0b9ab64ec473")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "640-USB4105-GF-A-120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6efacba9-f8a6-4937-85db-7c4858e17c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "2073-USB4105-GF-A-120TR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2934a86a-8b83-4f40-84e9-6dc902b4fdee")
 			(effects
 				(font
 					(size 1 1)
@@ -2156,7 +2572,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "49111185-c21a-46b5-926f-d220630024b7")
 		(at 155.25 99.75)
@@ -2261,6 +2677,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "884d3c75-4f94-4caa-a825-6655979aeb04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84ab5a7-bdf4-4903-aa59-56528030d055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fed3cfd2-14aa-4ef7-a7c5-d1b7d653658d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1860-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfdd120d-8361-4cbd-ada5-bde17c64aea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1b2ee313-c313-4bd9-8ac0-34ea4c57add5")
 		(sheetname "/")
@@ -2351,7 +2819,7 @@
 			)
 		)
 	)
-	(footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+	(footprint "footprints:Texas_SWRA117D_2.4GHz_Right"
 		(layer "F.Cu")
 		(uuid "4c4faa70-3c59-4219-8cd3-4df8199854aa")
 		(at 142.25 88.5)
@@ -2647,7 +3115,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5222a93e-d819-4c71-9876-fb87766928c3")
 		(at 160 95 180)
@@ -2752,6 +3220,45 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f8b7bf-5f35-42f5-afc2-f835d9926293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f383fe-0dee-44f1-aafb-0563e584a8f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "293825f7-1d7a-4969-9562-e8a1e6f32464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/39b7b0e0-98d9-4d3d-a17d-7f1f1e5f9bcc")
 		(sheetname "/")
@@ -2841,7 +3348,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+	(footprint "footprints:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "56719bc7-bb51-43b9-8046-ee8ee316c83e")
 		(at 167.5 107.83 180)
@@ -3150,7 +3657,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "65873c6a-e10a-401c-8025-0eb76b9ea35d")
 		(at 155.25 98.25)
@@ -3255,6 +3762,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91c06034-db7f-4742-b037-8ee81a9064f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f95295-fea6-47ae-843b-1439d7f545b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "603-CC603KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872d0004-ed19-4a8d-bed6-4875185c5925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "311-1344-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1943887-38fd-4bf6-a0d9-a372cdcb2ca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f718c08d-7140-44fa-810e-e9843a9963fb")
 		(sheetname "/")
@@ -3344,7 +3903,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-3"
+	(footprint "footprints:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "72a4aad3-d1c9-469b-b3dc-b22f8040838e")
 		(at 143.5 115.75)
@@ -3442,6 +4001,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a469f425-c423-4cf7-b539-3757a85a29fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Torex Semicon"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb90f6a5-1c09-4d0b-ac79-f1f611dbf757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XC6206P332MR-G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8812c84-634c-4dbd-bb74-f66ad0d10d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "865-XC6206P332MR-G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e72c6b09-c91f-40c6-bc95-2e2f22b86f1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "893-XC6206P332MR-GTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04bd83c2-48b2-4cba-98a3-343506b73ec0")
 			(effects
 				(font
 					(size 1 1)
@@ -3763,7 +4374,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0402_1005Metric"
+	(footprint "footprints:L_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7482240d-6950-438f-9ee6-4d71845caabd")
 		(at 142.25 95 90)
@@ -3868,6 +4479,45 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Sunlord"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d740e29e-d4a7-4e1c-a448-8ac9b7cc505f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SDCL1005C2N7STDF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05325f70-69da-4705-80f2-a36ef77f3d9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "3442-SDCL1005C2N7STDFTR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc951bb4-efbd-4708-abf5-a8305969483a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/58f13191-6298-4703-8ec9-62cce215b0df")
 		(sheetname "/")
@@ -3939,7 +4589,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7c3186fd-63d4-45dd-af82-c058abc060ec")
 		(at 145.725 96.25 180)
@@ -4044,6 +4694,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "961efe2f-ef17-4559-b717-540a628fc2c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dc5fd9f-3593-4c82-881f-cfdc2e96049f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "603-CC603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bc34278-0650-45c4-8be0-41f3a99dcdb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "311-1344-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704a5b2d-e59c-4298-8cc4-81e88409f6de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/213ed9fd-f900-426b-aa69-a2e094f153a3")
 		(sheetname "/")
@@ -4134,7 +4836,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "80f2e0b9-1441-4e74-b492-d459185d1d85")
 		(at 153.575 107.5)
@@ -4232,6 +4934,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03bd98f5-142f-41f4-b53f-d02cda1aa5c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c83653f-0aca-477f-b6fb-26b453a607b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3177f648-2098-454f-99b3-8c7d580c1e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF1003T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baadd890-6243-449e-b6ed-4f54d7b9b039")
 			(effects
 				(font
 					(size 1 1)
@@ -4339,7 +5080,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8e8c46db-d309-40f7-966a-c7354113d149")
 		(at 149 107.5 180)
@@ -4437,6 +5178,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dff32ed-0153-444c-b426-38eb0df672dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2458d1a-6e1a-4cb0-93e7-3b0b1e1ef6cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bb70196-0f04-4d5f-b75c-cf0b7411ac65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473a27cb-617f-49a9-b406-dcb7e8b09c4d")
 			(effects
 				(font
 					(size 1 1)
@@ -4644,6 +5424,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ee8d92d-c93a-4064-bdce-d4ec1e29f5ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3da81bf8-4fda-47f8-a957-2334e85eefb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC2340R52E0RGER"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ee86948-991f-4da8-b8c7-821166409d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "595-CC2340R52E0RGER"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ced026c5-5687-402c-a7cd-425efcc172e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "296-CC2340R52E0RGERTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d08df73-85f1-41e1-9af0-540f475e62d5")
 			(effects
 				(font
 					(size 1 1)
@@ -6283,7 +7115,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9947fa34-19e9-41de-a64a-57e78ab626f5")
 		(at 159.25 101.75 -90)
@@ -6388,6 +7220,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1f9587d-0264-4095-b7fa-8f10aa041906")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d48d20-8c5e-4220-8a02-5d1775b0dc9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10C150JB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "897cc69a-a667-4adb-8718-d321665cdcb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1296-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff4994f4-5802-4178-80a3-306f4b668662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f37974ba-2e17-49e3-9774-09c116a1c487")
 		(sheetname "/")
@@ -6477,7 +7361,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "99f7658b-f00b-4f6a-a84f-c698a70f2464")
 		(at 143.25 102.25 180)
@@ -6582,6 +7466,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b10da63-e234-44b0-9261-50e05844f84c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7461d24d-4882-42e6-b969-cc4d9edaf6a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A106KP8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16af65a3-f4cb-4164-ba22-160fd4bfe852")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1192-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b0026fc-a64c-4777-b4b2-48cb742fc1a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c3843559-8e05-40d4-91de-dcce40a04024")
 		(sheetname "/")
@@ -6672,7 +7608,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a0b2aad6-481e-4bd0-bdc5-b64e4da2605b")
 		(at 159.4625 91.825)
@@ -6777,6 +7713,45 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26f5387d-41e2-4615-9756-06377c44a400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b94477ea-3d7b-4690-8305-0c15ad5261b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF1003T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42c58198-fd12-4f60-bae8-e6b0524d89fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4265b49b-409f-47e3-9f45-3c41a56f488a")
 		(sheetname "/")
@@ -6866,7 +7841,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1100P"
+	(footprint "footprints:SW_SPST_B3U-1100P"
 		(layer "F.Cu")
 		(uuid "a22be352-f416-4a9b-a9e3-0f1791d4f382")
 		(at 155.33 92 -90)
@@ -6965,6 +7940,58 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "23eec6b9-2321-475b-9f0b-e847fb9365e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "492b7e40-fd60-4320-8538-6b879f3acaa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B3U-1100PM"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65fec6b5-8d45-4ffd-806d-9e2a4a003472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "653-B3U-1100PM"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f76653-6144-47c5-83c7-ea9036155c02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "SW1451TR-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6188b35f-a94b-4c2e-91b2-14e8dbb2c8ea")
 			(effects
 				(font
 					(size 1 1)
@@ -7236,7 +8263,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a8c6d2c8-7157-4388-9869-f5b494458fd1")
 		(at 159.4625 90.325)
@@ -7341,6 +8368,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68cdb103-8251-48d1-81b1-b1a056ff7286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e07e6e-a1bf-43c1-a963-d853e8a0a7e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A105KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde3d05f-c894-4d60-a8ad-f1dea11857bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1860-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "887ad6d8-41ef-4b77-b512-7527830b32eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c5437894-3d6a-4100-a749-a30b11cf622b")
 		(sheetname "/")
@@ -7430,7 +8509,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b4333b08-6e47-45c7-bab0-f7dd67569320")
 		(at 159.25 97.75 90)
@@ -7535,6 +8614,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14c509ba-c91e-4f30-b419-f035838b298b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f869828-198c-4ff5-b97f-b4b20c9340b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10C150JB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7ed3ec1-bb48-4a1a-9198-2147f141fd98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1296-2-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60acc33b-744b-44e3-8ebb-a9331d75d88a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6f2cfd84-0056-4500-9f5c-ee985bcbab13")
 		(sheetname "/")
@@ -7624,7 +8755,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "footprints:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b887fde9-416c-4ca0-8a22-3e8a28001813")
 		(at 142.25 90.5 -90)
@@ -7729,6 +8860,45 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24bd36ae-e133-482c-bbd8-76100e7933e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b408351-4728-4239-94e5-404eab457a78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "303-0603WAF0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "527ff797-da0e-47a0-8302-9a93dd37eb50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d980a62-4edb-457d-b937-f2eaee778d37")
 		(sheetname "/")
@@ -7818,7 +8988,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c0f36111-45c0-40d2-ae99-3197e9c14ec9")
 		(at 145.5 107.725 90)
@@ -7923,6 +9093,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd57a03-a132-4398-b1b6-dfd73d656fea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6060f59b-7514-4f18-b4b1-dbfa05121cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "187-CL10A105KB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2165ccc-7082-42ba-a5ec-cd6cd045574a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-1860-2-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "017698fa-4cd4-43f9-99d7-16a7d1eaa3be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fbb03bd5-e136-4c4a-8dec-0169e1a15427")
 		(sheetname "/")
@@ -8013,7 +9235,7 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+	(footprint "footprints:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d8f17610-e075-4584-9bb6-029056a234ca")
 		(at 160 114.25)
@@ -8111,6 +9333,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "785c49fe-5772-4107-8db5-1de2dc831b8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc0dd1f4-51a0-44e6-93f9-47a69b7931ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SM03B-SRSS-TB(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4683663b-4631-4052-9250-3c0b23031fa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "306-SM03BSRSSTBLFSNP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23aa8183-8aea-4df9-8a7a-ca1d3504b9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "455-SM03B-SRSS-TBTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b135b479-6fd8-4c91-9493-990ce9dbfd24")
 			(effects
 				(font
 					(size 1 1)
@@ -8499,7 +9773,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "footprints:MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "df6f7fd9-dfc1-46a4-80b4-ace4045da8e4")
 		(at 167 113.75 90)
@@ -8638,7 +9912,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+	(footprint "footprints:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "e5d4e5a9-1589-4ca7-9828-c7e873e02b97")
 		(at 161.25 99.75 -90)
@@ -8738,6 +10012,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2461487-6574-4fce-b788-9986273b686f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49daeef-2ee6-472d-b560-0b235cd35d85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "Q13FC13500049"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e73c0b-783d-4fa1-aaf2-70198c5374bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "732-532.7680KA-E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d026388-e320-4dca-bb60-dbf6523bfd03")
 			(effects
 				(font
 					(size 1 1)
@@ -8892,7 +10205,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "edd5c1aa-bf5a-42c0-8839-dfcd30a301c0")
 		(at 143.25 100.75 180)
@@ -8997,6 +10310,58 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45089c61-2347-4c78-b9e8-cb10394cebb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "801355f2-8c35-4bf4-ba46-08f1427d966e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "603-CC603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bf72348-ff0c-4118-a5f7-16d0081ce631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "311-1344-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9cb390d-7581-4943-a328-18a3036afacc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7fc66263-ba4b-4194-834e-f88c88a4b46c")
 		(sheetname "/")
@@ -9086,7 +10451,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.5mm"
+	(footprint "footprints:MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "f2246503-f13e-4608-b709-3fdbca662974")
 		(at 167 91.75 90)
@@ -9225,7 +10590,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1100P"
+	(footprint "footprints:SW_SPST_B3U-1100P"
 		(layer "F.Cu")
 		(uuid "f826f901-2dc9-4922-8475-abbd59808d61")
 		(at 161.17 106.75 90)
@@ -9324,6 +10689,58 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1d5ad450-5383-40b3-8a24-9bce9ab07b6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5e5473c-3c81-42bb-922c-e4450f8c2c74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B3U-1100PM"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a8e4872-7a11-4ce2-b8b2-fffa0cdec086")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part #" "653-B3U-1100PM"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b127053-1c47-4524-99de-65b621ad432c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "SW1451TR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec26f13-71ff-4d59-96d3-7eb8d05828a4")
 			(effects
 				(font
 					(size 1 1)
@@ -9584,7 +11001,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "footprints:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fbb914a4-c4df-4191-bd2b-d8c02e19bc2f")
 		(at 141.475 93 180)
@@ -9689,6 +11106,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "960c0022-ae5e-4004-abf1-50f316581009")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603CG1R5C500NT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "808f2dca-876d-41d9-8244-a564e9f251d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1e20870d-aeaa-4d81-a6a1-5de801b5ebbc")
 		(sheetname "/")
@@ -9778,7 +11221,7 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "footprints:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "575a5699-63d4-4386-8a6e-f37ff0a0fdd9")
 		(at 155.65 100.21)
@@ -10079,7 +11522,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "footprints:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "9e55242a-0951-47d2-9b0d-362de2abc3cb")
 		(at 153.5 102.75)
@@ -12233,6 +13676,90 @@
 		(uuid "ef26d93b-40b8-46a5-95e2-e034000325a7")
 	)
 	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "134f2ff1-0aa9-43f8-bd98-5d752a79f2a0")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 148.098798 96.13164) (xy 148.38164 95.848798) (xy 148.041014 95.30555) (xy 147.749293 95.499293)
+				(xy 147.55555 95.791014)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 148.38164 95.848798) (xy 148.098798 96.13164) (xy 147.55555 95.791014) (xy 147.749293 95.499293)
+				(xy 148.041014 95.30555)
+			)
+		)
+	)
+	(zone
+		(net 13)
+		(net_name "/SWDIO")
+		(layer "F.Cu")
+		(uuid "1f82b808-d358-40f1-857d-0e49df241507")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 158.9 111.175) (xy 158.894593 111.250542) (xy 158.876747 111.341104) (xy 158.850293 111.418691)
+				(xy 158.811843 111.488652) (xy 158.776826 111.528789) (xy 158.734646 111.558118) (xy 158.711418 111.567597)
+				(xy 159 112.251) (xy 159.288582 111.567597) (xy 159.221017 111.526788) (xy 159.164033 111.448953)
+				(xy 159.120145 111.328979) (xy 159.1 111.175)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 159.098004 111.178427) (xy 159.101332 111.185182) (xy 159.120145 111.328979) (xy 159.164033 111.448954)
+				(xy 159.164035 111.448957) (xy 159.221013 111.526784) (xy 159.221016 111.526787) (xy 159.221017 111.526788)
+				(xy 159.272882 111.558114) (xy 159.279913 111.562361) (xy 159.285223 111.569572) (xy 159.284642 111.576927)
+				(xy 159.010778 112.225476) (xy 159.004403 112.231765) (xy 158.995449 112.231703) (xy 158.989222 112.225476)
+				(xy 158.958264 112.152164) (xy 158.716023 111.578504) (xy 158.715962 111.569552) (xy 158.722251 111.563177)
+				(xy 158.722317 111.563148) (xy 158.734646 111.558118) (xy 158.776826 111.528789) (xy 158.811843 111.488652)
+				(xy 158.850293 111.418691) (xy 158.876747 111.341104) (xy 158.894593 111.250542) (xy 158.899222 111.185864)
+				(xy 158.903231 111.177857) (xy 158.910892 111.175) (xy 159.089731 111.175)
+			)
+		)
+	)
+	(zone
 		(net 1)
 		(net_name "+3V3")
 		(layer "F.Cu")
@@ -12344,7 +13871,7 @@
 		(net 24)
 		(net_name "/SWCLK")
 		(layer "F.Cu")
-		(uuid "61d8c7e9-6295-4a2c-9de8-8e89dea6adba")
+		(uuid "78fdf9a2-11fc-4bd1-8fd3-f276e0a1bdbb")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30004)
@@ -12382,90 +13909,6 @@
 				(xy 159.721972 111.56295) (xy 159.753736 111.548968) (xy 159.796258 111.517007) (xy 159.829198 111.477557)
 				(xy 159.857717 111.422619) (xy 159.874105 111.365609) (xy 159.876153 111.272369) (xy 159.879576 111.264357)
 				(xy 160.003876 111.140057) (xy 160.012148 111.136631)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "721c2dbb-9b7d-4f09-a779-1ed50750f8c4")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 148.098798 96.13164) (xy 148.38164 95.848798) (xy 148.041014 95.30555) (xy 147.749293 95.499293)
-				(xy 147.55555 95.791014)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 148.38164 95.848798) (xy 148.098798 96.13164) (xy 147.55555 95.791014) (xy 147.749293 95.499293)
-				(xy 148.041014 95.30555)
-			)
-		)
-	)
-	(zone
-		(net 13)
-		(net_name "/SWDIO")
-		(layer "F.Cu")
-		(uuid "78d0abc5-861d-4146-a5c6-3d2f0955abec")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 158.9 111.175) (xy 158.894593 111.250542) (xy 158.876747 111.341104) (xy 158.850293 111.418691)
-				(xy 158.811843 111.488652) (xy 158.776826 111.528789) (xy 158.734646 111.558118) (xy 158.711418 111.567597)
-				(xy 159 112.251) (xy 159.288582 111.567597) (xy 159.221017 111.526788) (xy 159.164033 111.448953)
-				(xy 159.120145 111.328979) (xy 159.1 111.175)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 159.098004 111.178427) (xy 159.101332 111.185182) (xy 159.120145 111.328979) (xy 159.164033 111.448954)
-				(xy 159.164035 111.448957) (xy 159.221013 111.526784) (xy 159.221016 111.526787) (xy 159.221017 111.526788)
-				(xy 159.272882 111.558114) (xy 159.279913 111.562361) (xy 159.285223 111.569572) (xy 159.284642 111.576927)
-				(xy 159.010778 112.225476) (xy 159.004403 112.231765) (xy 158.995449 112.231703) (xy 158.989222 112.225476)
-				(xy 158.958264 112.152164) (xy 158.716023 111.578504) (xy 158.715962 111.569552) (xy 158.722251 111.563177)
-				(xy 158.722317 111.563148) (xy 158.734646 111.558118) (xy 158.776826 111.528789) (xy 158.811843 111.488652)
-				(xy 158.850293 111.418691) (xy 158.876747 111.341104) (xy 158.894593 111.250542) (xy 158.899222 111.185864)
-				(xy 158.903231 111.177857) (xy 158.910892 111.175) (xy 159.089731 111.175)
 			)
 		)
 	)
@@ -12579,6 +14022,55 @@
 		)
 	)
 	(zone
+		(net 26)
+		(net_name "/CC1")
+		(layer "F.Cu")
+		(uuid "b64a85da-1481-4ef6-b930-9c46a0c90da4")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 147.575 107.85) (xy 147.642528 107.827188) (xy 147.698643 107.804271) (xy 147.753086 107.796554)
+				(xy 147.776997 107.80412) (xy 147.797269 107.822357) (xy 147.812831 107.853553) (xy 147.822607 107.9)
+				(xy 148.176 107.5) (xy 147.822607 107.1) (xy 147.812036 107.148764) (xy 147.795027 107.180517) (xy 147.77585 107.196507)
+				(xy 147.75358 107.203386) (xy 147.695033 107.194531) (xy 147.642528 107.172812) (xy 147.575 107.15)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 147.837911 107.117323) (xy 148.169155 107.492253) (xy 148.172065 107.500722) (xy 148.169155 107.507747)
+				(xy 147.838027 107.882546) (xy 147.829981 107.886477) (xy 147.821512 107.883567) (xy 147.81781 107.877209)
+				(xy 147.812831 107.853555) (xy 147.812831 107.853553) (xy 147.797269 107.822357) (xy 147.797265 107.822353)
+				(xy 147.776999 107.804121) (xy 147.776997 107.80412) (xy 147.753086 107.796554) (xy 147.753085 107.796554)
+				(xy 147.753082 107.796553) (xy 147.698645 107.80427) (xy 147.642861 107.827051) (xy 147.642183 107.827304)
+				(xy 147.590445 107.844782) (xy 147.58151 107.844183) (xy 147.575615 107.837442) (xy 147.575 107.833697)
+				(xy 147.575 107.166302) (xy 147.578427 107.158029) (xy 147.5867 107.154602) (xy 147.590441 107.155216)
+				(xy 147.642171 107.172691) (xy 147.642889 107.172962) (xy 147.695026 107.194529) (xy 147.69503 107.194529)
+				(xy 147.695033 107.194531) (xy 147.743145 107.201807) (xy 147.753579 107.203386) (xy 147.753579 107.203385)
+				(xy 147.75358 107.203386) (xy 147.77585 107.196507) (xy 147.795027 107.180517) (xy 147.812036 107.148764)
+				(xy 147.81771 107.122588) (xy 147.82281 107.115232) (xy 147.831621 107.113635)
+			)
+		)
+	)
+	(zone
 		(net 0)
 		(net_name "")
 		(layer "F.Cu")
@@ -12640,55 +14132,6 @@
 		(polygon
 			(pts
 				(xy 149 106.5) (xy 149 108.5) (xy 153.75 108.5) (xy 153.75 106.5)
-			)
-		)
-	)
-	(zone
-		(net 25)
-		(net_name "/CC2")
-		(layer "F.Cu")
-		(uuid "bbbe9947-d636-43da-a710-940fe9c33adb")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 155 107.15) (xy 154.932472 107.172812) (xy 154.876357 107.195729) (xy 154.821914 107.203446)
-				(xy 154.798004 107.19588) (xy 154.777731 107.177643) (xy 154.76217 107.146447) (xy 154.752393 107.1)
-				(xy 154.399 107.5) (xy 154.752393 107.9) (xy 154.762964 107.851236) (xy 154.779974 107.819483) (xy 154.79915 107.803493)
-				(xy 154.821421 107.796614) (xy 154.879968 107.80547) (xy 154.932472 107.827188) (xy 155 107.85)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 154.753488 107.116432) (xy 154.75719 107.12279) (xy 154.762169 107.146445) (xy 154.76217 107.146447)
-				(xy 154.777731 107.177643) (xy 154.777733 107.177644) (xy 154.777734 107.177646) (xy 154.798001 107.195878)
-				(xy 154.798002 107.195878) (xy 154.798004 107.19588) (xy 154.821914 107.203446) (xy 154.821916 107.203445)
-				(xy 154.821917 107.203446) (xy 154.876352 107.19573) (xy 154.876353 107.195729) (xy 154.876357 107.195729)
-				(xy 154.932159 107.172939) (xy 154.932793 107.172703) (xy 154.984556 107.155217) (xy 154.99349 107.155816)
-				(xy 154.999385 107.162557) (xy 155 107.166302) (xy 155 107.833697) (xy 154.996573 107.84197) (xy 154.9883 107.845397)
-				(xy 154.984555 107.844782) (xy 154.932837 107.827311) (xy 154.93211 107.827038) (xy 154.879968 107.805469)
-				(xy 154.821421 107.796613) (xy 154.799149 107.803493) (xy 154.779973 107.819484) (xy 154.762964 107.851235)
-				(xy 154.762961 107.851242) (xy 154.75729 107.877408) (xy 154.752189 107.884767) (xy 154.743377 107.886363)
-				(xy 154.737088 107.882676) (xy 154.405844 107.507747) (xy 154.402934 107.499278) (xy 154.405844 107.492253)
-				(xy 154.661001 107.203445) (xy 154.736974 107.117452) (xy 154.745019 107.113522)
 			)
 		)
 	)
@@ -12774,13 +14217,13 @@
 		)
 	)
 	(zone
-		(net 26)
-		(net_name "/CC1")
+		(net 25)
+		(net_name "/CC2")
 		(layer "F.Cu")
-		(uuid "f609df08-1f60-45f2-8602-3a331a7bbf97")
+		(uuid "e5672fda-33f9-4153-a3db-77e7c319ebfa")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30003)
+		(priority 30002)
 		(attr
 			(teardrop
 				(type padvia)
@@ -12799,26 +14242,26 @@
 		)
 		(polygon
 			(pts
-				(xy 147.575 107.85) (xy 147.642528 107.827188) (xy 147.698643 107.804271) (xy 147.753086 107.796554)
-				(xy 147.776997 107.80412) (xy 147.797269 107.822357) (xy 147.812831 107.853553) (xy 147.822607 107.9)
-				(xy 148.176 107.5) (xy 147.822607 107.1) (xy 147.812036 107.148764) (xy 147.795027 107.180517) (xy 147.77585 107.196507)
-				(xy 147.75358 107.203386) (xy 147.695033 107.194531) (xy 147.642528 107.172812) (xy 147.575 107.15)
+				(xy 155 107.15) (xy 154.932472 107.172812) (xy 154.876357 107.195729) (xy 154.821914 107.203446)
+				(xy 154.798004 107.19588) (xy 154.777731 107.177643) (xy 154.76217 107.146447) (xy 154.752393 107.1)
+				(xy 154.399 107.5) (xy 154.752393 107.9) (xy 154.762964 107.851236) (xy 154.779974 107.819483) (xy 154.79915 107.803493)
+				(xy 154.821421 107.796614) (xy 154.879968 107.80547) (xy 154.932472 107.827188) (xy 155 107.85)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 147.837911 107.117323) (xy 148.169155 107.492253) (xy 148.172065 107.500722) (xy 148.169155 107.507747)
-				(xy 147.838027 107.882546) (xy 147.829981 107.886477) (xy 147.821512 107.883567) (xy 147.81781 107.877209)
-				(xy 147.812831 107.853555) (xy 147.812831 107.853553) (xy 147.797269 107.822357) (xy 147.797265 107.822353)
-				(xy 147.776999 107.804121) (xy 147.776997 107.80412) (xy 147.753086 107.796554) (xy 147.753085 107.796554)
-				(xy 147.753082 107.796553) (xy 147.698645 107.80427) (xy 147.642861 107.827051) (xy 147.642183 107.827304)
-				(xy 147.590445 107.844782) (xy 147.58151 107.844183) (xy 147.575615 107.837442) (xy 147.575 107.833697)
-				(xy 147.575 107.166302) (xy 147.578427 107.158029) (xy 147.5867 107.154602) (xy 147.590441 107.155216)
-				(xy 147.642171 107.172691) (xy 147.642889 107.172962) (xy 147.695026 107.194529) (xy 147.69503 107.194529)
-				(xy 147.695033 107.194531) (xy 147.743145 107.201807) (xy 147.753579 107.203386) (xy 147.753579 107.203385)
-				(xy 147.75358 107.203386) (xy 147.77585 107.196507) (xy 147.795027 107.180517) (xy 147.812036 107.148764)
-				(xy 147.81771 107.122588) (xy 147.82281 107.115232) (xy 147.831621 107.113635)
+				(xy 154.753488 107.116432) (xy 154.75719 107.12279) (xy 154.762169 107.146445) (xy 154.76217 107.146447)
+				(xy 154.777731 107.177643) (xy 154.777733 107.177644) (xy 154.777734 107.177646) (xy 154.798001 107.195878)
+				(xy 154.798002 107.195878) (xy 154.798004 107.19588) (xy 154.821914 107.203446) (xy 154.821916 107.203445)
+				(xy 154.821917 107.203446) (xy 154.876352 107.19573) (xy 154.876353 107.195729) (xy 154.876357 107.195729)
+				(xy 154.932159 107.172939) (xy 154.932793 107.172703) (xy 154.984556 107.155217) (xy 154.99349 107.155816)
+				(xy 154.999385 107.162557) (xy 155 107.166302) (xy 155 107.833697) (xy 154.996573 107.84197) (xy 154.9883 107.845397)
+				(xy 154.984555 107.844782) (xy 154.932837 107.827311) (xy 154.93211 107.827038) (xy 154.879968 107.805469)
+				(xy 154.821421 107.796613) (xy 154.799149 107.803493) (xy 154.779973 107.819484) (xy 154.762964 107.851235)
+				(xy 154.762961 107.851242) (xy 154.75729 107.877408) (xy 154.752189 107.884767) (xy 154.743377 107.886363)
+				(xy 154.737088 107.882676) (xy 154.405844 107.507747) (xy 154.402934 107.499278) (xy 154.405844 107.492253)
+				(xy 154.661001 107.203445) (xy 154.736974 107.117452) (xy 154.745019 107.113522)
 			)
 		)
 	)
@@ -14190,6 +15633,55 @@
 		)
 	)
 	(zone
+		(net 5)
+		(net_name "+VDDR")
+		(layer "B.Cu")
+		(uuid "299cde8d-7e6f-4e51-8bb6-93b91a981479")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 149.728429 96.054413) (xy 149.774683 96.015032) (xy 149.81678 95.992762) (xy 149.886431 95.986802)
+				(xy 149.969654 96.016493) (xy 149.992582 96.027459) (xy 150.073154 96.063669) (xy 150.172771 96.093275)
+				(xy 150.24176 95.749293) (xy 150.046603 95.458986) (xy 149.961176 95.510593) (xy 149.887338 95.545673)
+				(xy 149.7595 95.587766) (xy 149.688392 95.609143) (xy 149.616267 95.63981) (xy 149.53728 95.690406)
+				(xy 149.445587 95.771571)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 150.052821 95.468236) (xy 150.239039 95.745245) (xy 150.240811 95.754022) (xy 150.240801 95.754073)
+				(xy 150.175291 96.080709) (xy 150.170304 96.088146) (xy 150.161518 96.08988) (xy 150.160486 96.089623)
+				(xy 150.073906 96.063892) (xy 150.072443 96.063349) (xy 149.992704 96.027513) (xy 149.992452 96.027396)
+				(xy 149.969652 96.016492) (xy 149.886429 95.986801) (xy 149.886428 95.986801) (xy 149.81678 95.992761)
+				(xy 149.774687 96.015029) (xy 149.774684 96.01503) (xy 149.736651 96.047413) (xy 149.72813 96.050166)
+				(xy 149.720793 96.046777) (xy 149.454379 95.780363) (xy 149.450952 95.77209) (xy 149.454379 95.763817)
+				(xy 149.45488 95.763344) (xy 149.536609 95.690999) (xy 149.538036 95.689921) (xy 149.615451 95.640332)
+				(xy 149.61716 95.63943) (xy 149.687802 95.609393) (xy 149.688999 95.60896) (xy 149.7595 95.587766)
+				(xy 149.887338 95.545673) (xy 149.961176 95.510593) (xy 149.961176 95.510592) (xy 149.96118 95.510591)
+				(xy 149.978735 95.499985) (xy 150.037064 95.464748) (xy 150.045914 95.463404)
+			)
+		)
+	)
+	(zone
 		(net 1)
 		(net_name "+3V3")
 		(locked yes)
@@ -14976,55 +16468,6 @@
 				(xy 140.957546 89.107546) (xy 141.043796 88.992331) (xy 141.094091 88.857483) (xy 141.1005 88.797873)
 				(xy 141.100499 88.373999) (xy 141.120183 88.306961) (xy 141.172987 88.261206) (xy 141.224499 88.25)
 				(xy 143.350953 88.25)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+VDDR")
-		(layer "B.Cu")
-		(uuid "84ad2c09-4f83-4b49-bc6f-f15f4e18d506")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 149.728429 96.054413) (xy 149.774683 96.015032) (xy 149.81678 95.992762) (xy 149.886431 95.986802)
-				(xy 149.969654 96.016493) (xy 149.992582 96.027459) (xy 150.073154 96.063669) (xy 150.172771 96.093275)
-				(xy 150.24176 95.749293) (xy 150.046603 95.458986) (xy 149.961176 95.510593) (xy 149.887338 95.545673)
-				(xy 149.7595 95.587766) (xy 149.688392 95.609143) (xy 149.616267 95.63981) (xy 149.53728 95.690406)
-				(xy 149.445587 95.771571)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 150.052821 95.468236) (xy 150.239039 95.745245) (xy 150.240811 95.754022) (xy 150.240801 95.754073)
-				(xy 150.175291 96.080709) (xy 150.170304 96.088146) (xy 150.161518 96.08988) (xy 150.160486 96.089623)
-				(xy 150.073906 96.063892) (xy 150.072443 96.063349) (xy 149.992704 96.027513) (xy 149.992452 96.027396)
-				(xy 149.969652 96.016492) (xy 149.886429 95.986801) (xy 149.886428 95.986801) (xy 149.81678 95.992761)
-				(xy 149.774687 96.015029) (xy 149.774684 96.01503) (xy 149.736651 96.047413) (xy 149.72813 96.050166)
-				(xy 149.720793 96.046777) (xy 149.454379 95.780363) (xy 149.450952 95.77209) (xy 149.454379 95.763817)
-				(xy 149.45488 95.763344) (xy 149.536609 95.690999) (xy 149.538036 95.689921) (xy 149.615451 95.640332)
-				(xy 149.61716 95.63943) (xy 149.687802 95.609393) (xy 149.688999 95.60896) (xy 149.7595 95.587766)
-				(xy 149.887338 95.545673) (xy 149.961176 95.510593) (xy 149.961176 95.510592) (xy 149.96118 95.510591)
-				(xy 149.978735 95.499985) (xy 150.037064 95.464748) (xy 150.045914 95.463404)
 			)
 		)
 	)
