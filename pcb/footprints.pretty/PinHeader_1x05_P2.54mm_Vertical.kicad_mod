@@ -278,7 +278,7 @@
 		(uuid "113abd99-4ade-4fed-b683-b401ca7ac770")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3dmodels/PinHeader_1x05_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

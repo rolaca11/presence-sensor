@@ -393,7 +393,7 @@
 		(uuid "832e6582-c5f9-4816-8ed6-28b5fd86ed33")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step"
+	(model "${KIPRJMOD}/3dmodels/SOT-23-3.step"
 		(offset
 			(xyz 0 0 0)
 		)
