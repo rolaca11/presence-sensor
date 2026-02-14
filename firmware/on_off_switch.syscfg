@@ -1,0 +1,52 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "CC2340R5RGE" --part "Default" --package "RGE" --rtos "freertos" --product "simplelink_lowpower_f3_sdk@9.14.01.16"
+ * @v2CliArgs --device "CC2340R5" --package "VQFN (RGE)" --rtos "freertos" --product "simplelink_lowpower_f3_sdk@9.14.01.16"
+ * @versions {"tool":"1.23.2+4156"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const FreeRTOS = scripting.addModule("/freertos/FreeRTOS");
+const CCFG     = scripting.addModule("/ti/devices/CCFG");
+const rfdesign = scripting.addModule("/ti/devices/radioconfig/rfdesign");
+const GPIO     = scripting.addModule("/ti/drivers/GPIO");
+const GPIO1    = GPIO.addInstance();
+const Power    = scripting.addModule("/ti/drivers/Power");
+const UART2    = scripting.addModule("/ti/drivers/UART2", {}, false);
+const UART21   = UART2.addInstance();
+const Settings = scripting.addModule("/ti/posix/freertos/Settings");
+const zigbee   = scripting.addModule("/ti/zigbee/zigbee");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+FreeRTOS.heapSize       = 0x00001BBC;
+FreeRTOS.timerStackSize = 0x00000100;
+
+CCFG.voltageRegulator   = "GLDO";
+CCFG.ccfgTemplate.$name = "ti_devices_CCFG_CCFGCC23X0Template0";
+
+GPIO1.$name           = "CONFIG_GPIO_BTN1";
+GPIO1.gpioPin.$assign = "DIO11";
+
+Power.policyFunction = "PowerCC23X0_doWFI";
+
+UART21.$name                     = "CONFIG_UART2_0";
+UART21.enableNonblocking         = false;
+UART21.uart.$assign              = "UART0";
+UART21.uart.dmaTxChannel.$assign = "DMA_CH1";
+UART21.uart.dmaRxChannel.$assign = "DMA_CH0";
+UART21.uart.txPin.$assign        = "DIO13";
+UART21.uart.rxPin.$assign        = "DIO12";
+
+zigbee.deviceType         = ["zed"];
+zigbee.powerModeOperation = "alwaysOn";
+zigbee.primaryChannels    = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26];
+zigbee.txPower            = "8";
+
+const RNG       = scripting.addModule("/ti/drivers/RNG", {}, false);
+RNG.rngPoolSize = 512;
+scripting.suppress("This the default noise conditioning key provided by TI, which is acceptable per NIST SP 800-90B\\. However, TI recommends you change this default value to a custom random value for your product", RNG, "noiseConditioningKeyW3");

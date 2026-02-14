@@ -1,0 +1,19 @@
+# Build output
+Debug/
+Release/
+
+# CCS project files
+.ccsproject
+.cproject
+.project
+.settings/
+
+# Clangd cache
+.clangd
+.cache/
+
+# VS Code
+.vscode/
+
+# Target configurations
+targetConfigs/
